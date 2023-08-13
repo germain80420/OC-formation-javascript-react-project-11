@@ -1,0 +1,9 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content:left;
+    width: 90%;
+    margin: auto;
+    background-color:#F6F6F6;
+}
