@@ -1,0 +1,75 @@
+.heading-container {
+  width: 100%;
+
+  display: flex;
+}
+.heading {
+  width: 80%;
+  position: relative;
+}
+.profil {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+}
+.user {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  justify-content: right;
+}
+.user h3 {
+  width: 30%;
+  text-align: right;
+}
+.user img {
+  border-radius: 50%;
+  width: 30%;
+  object-fit: cover;
+  padding: 10px;
+}
+.tags-container {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  padding: 0;
+  margin-left: 0;
+}
+.tag {
+  background-color: #ff6060;
+  color: white;
+  width: 15%;
+  padding: 10px;
+  list-style: none;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 0;
+}
+.container {
+  /* margin: 50px; */
+  width: 90%;
+  margin: auto;
+  color: #ff6060;
+}
+.details {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+.listEquipement {
+  padding: 15px;
+}
+.equipement {
+  list-style: none;
+}
+.star-inactive {
+  color: #e3e3e3;
+}
+.rating {
+  width: 100%;
+  font-size: 1.9em;
+  text-align: right;
+}

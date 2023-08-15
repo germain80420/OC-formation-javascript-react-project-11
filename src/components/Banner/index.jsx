@@ -1,10 +1,15 @@
 import '../../styles/Banner.css'
-function Banner(){
+function Banner({texte,img}){
     return (
         <div className="banner">
+            <div className='img-banner'>
+                <img src={img} alt="banniere"/>
+            </div>
             <div className='innerBanner'>
-            <h2>Chez vous, partout et ailleurs</h2>
-
+           
+            {
+            texte.length>0&&<h2>{texte}</h2>
+            }
             </div>
             
         </div>
