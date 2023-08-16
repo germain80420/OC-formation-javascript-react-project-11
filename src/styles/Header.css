@@ -9,14 +9,14 @@
 .navHeader {
   width: fit-content;
 }
-.liNav {
+a {
   color: red;
   text-decoration: none;
   margin-left: 30px;
   font-size: 1.2em;
 }
-.liNav:hover,
-.liNavActive {
+
+a.active {
   text-decoration: underline;
   color: red;
   margin-left: 30px;
