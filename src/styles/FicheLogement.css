@@ -1,6 +1,5 @@
 .heading-container {
   width: 100%;
-
   display: flex;
 }
 .heading {
@@ -36,20 +35,21 @@
   justify-content: left;
   padding: 0;
   margin-left: 0;
+  flex-wrap: wrap;
 }
 .tag {
   background-color: #ff6060;
   color: white;
-  width: 15%;
+  width: 22%;
   padding: 10px;
   list-style: none;
   border-radius: 10px;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
   margin-left: 0;
+  align-items: center;
 }
 .container {
-  /* margin: 50px; */
   width: 90%;
   margin: auto;
   color: #ff6060;
@@ -72,4 +72,34 @@
   width: 100%;
   font-size: 1.9em;
   text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .heading-container {
+    flex-direction: column;
+  }
+  .heading {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .profil {
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  .rating {
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+  }
+  .user {
+    width: fit-content;
+    text-align: right;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .details {
+    flex-direction: column;
+  }
 }
